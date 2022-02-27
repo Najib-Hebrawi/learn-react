@@ -6,8 +6,9 @@ function App (){
     return(
 
         <div>
-        <h1>Test</h1>
-        <p>Here is Test</p>
+        <h1>Design is my life</h1>
+        <p>here is a list</p>
+        
         <ul>
             <li>Facebook</li>
             <li>youtube</li>
