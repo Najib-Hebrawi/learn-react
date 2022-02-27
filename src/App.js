@@ -1,13 +1,11 @@
-
-
-
-
+import React, { Component } from 'react';
 import './App.css';
-
-function App() {
+import Todos from './components/Todos';
+class App extends Component {
+  render(){
   return (
-    <h1>Hello word</h1>
+    <Todos/>
   );
 }
-
+}
 export default App;
