@@ -3,9 +3,17 @@ import React from "react";
 
 
 function Header(){
-    return(
+   
+        const style =
+            { 
+                color: 'red',
+                fontSize :'30px',
+                backgroundColor:'black'
+            }
+        
 
-        <h1>Design is my life</h1>
+        return(
+        <h1 style={style}>Design is my life</h1>
 
     );
 }

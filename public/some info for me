@@ -21,9 +21,47 @@ ReactDOM.render(
 
 
 there are three way to write CSS, 
-* Inline style
-* Internal style 
-* External style 
+1* Inline style
+2* Internal style 
+3* External style 
+
+
+1->  <h1 style={
+            {
+                color: 'red',
+                fontSize :'30px',
+                backgroundColor:'black'
+            }
+            }>Design is my life
+        </h1>
+
+
+
+
+
+2-> function Header(){
+   
+   const style =
+       { 
+           color: 'red',
+           fontSize :'30px',
+           backgroundColor:'black'
+       }
+   
+
+   return(
+   <h1 style={style}>Design is my life</h1>
+
+);
+}
+
+
+
+
+
+
+
+
 
 
 ---------------------------------------------------------------
