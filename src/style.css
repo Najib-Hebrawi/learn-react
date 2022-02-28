@@ -1,8 +1,10 @@
 
-
-
-h1{
-    color: red;
-    font-size : 30px;
-    background-color:black;
+.container{
+    margin-top: 20px;
 }
+div{
+    margin-bottom: 10px;
+}
+label{
+    padding-left: 10px;
+} 
