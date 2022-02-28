@@ -8,8 +8,9 @@ function ScocialItem(props){
     return(
         
     <li className="list-group-item">
-        <input type="checkbox" id="facebook"/>
-        <label for="facebook">{props.media}</label>
+        <img src ={props.img} alt={`icon of ${props.media}`}/>
+        <input type="checkbox" id={props.id}/>
+        <label htmlFor={props.id}>{props.media}</label>
     </li>
 
     )
