@@ -1,6 +1,4 @@
 import React from "react";
-import Header from './Header'
-import Team from './Team'
 
 
 
@@ -9,14 +7,12 @@ function App(){
 
 
 
+
     return(
-     <div className="container">
-        <Header/>
-        <Team/>
-    </div>
+
+        <h1> asdas</h1>
     )
 }
-
 
 
 export default App

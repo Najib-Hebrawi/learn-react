@@ -3,12 +3,10 @@ import React from "react";
 
 
 
-
 function TeamMember(props){
 
 
-
-
+  
     return(
         <div className="col-md-4 bor col-sm-6 ">
             
@@ -16,10 +14,15 @@ function TeamMember(props){
         <div className="card">
 
             <div className="card-header">
-            <img src={props.info.img}/>
-            </div>
+            <img 
+            style={{maxWidth:'100%'}} 
+            src={props.info.img}/>
+           </div>
 
-            <div className="card-body">
+            
+            <div className="card-body" 
+             style={{backgroundColor: props.info.website ? 'black' : 'white'}}
+            >
 
             <h2>{props.info.name}</h2>
             <h5>{props.info.position}</h5>
