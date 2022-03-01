@@ -1,22 +1,22 @@
 import React from "react";
-import Header from "./Header";
-import Social from "./Social";
-import Text from "./Text";
+import Header from './Header'
+import Team from './Team'
 
 
 
-function App (){
+
+function App(){
+
+
+
     return(
-
-    <div className="container">
+     <div className="container">
         <Header/>
-        <Text/>
-        <Social/>
-      
-       
+        <Team/>
     </div>
-
-    );
+    )
 }
+
+
 
 export default App
